@@ -1,7 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import Login from './components/Login.vue'
+import Login from './components/Login.vue'
 import Login_M from './components/Login_M.vue'
+import Formulario from './components/Formulario.vue'
+// import Asistencia from './components/Asistencia.vue'
+
 
 Vue.use(Router)
 
@@ -12,7 +15,7 @@ export default new Router({
     {
       path: '/',
       name: 'login',
-      component: Login_M
+      component: Formulario
     }
   ]
 })
