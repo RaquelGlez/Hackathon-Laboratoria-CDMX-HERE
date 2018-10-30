@@ -1,26 +1,8 @@
-# SchoolShip
+En este link se encuentra la documentación pertinente.
 
-## Project setup
-```
-npm install
-```
+[_Click aquí_](https://sites.google.com/s/1t9ChRn9btuNU0ha39EtlFdT9_d3gpjJk/p/1EDj7bj7gUdj78QXSqd87V99f5W39K0Ic/edit)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Link de la presentación 
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+[_Click aquí_](https://docs.google.com/presentation/d/1f9aUz9IRUmPLPcGOl1v41lTSGnRYeK-WYZqnfWFJ8Xo/edit?usp=sharing)
