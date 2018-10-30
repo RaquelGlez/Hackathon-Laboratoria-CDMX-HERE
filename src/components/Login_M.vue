@@ -1,4 +1,5 @@
 <template>
+<div class ="mt-">
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1"> Nombre del Usuario </label>
@@ -13,6 +14,7 @@
   </div>
   <button type="submit" class="px-5 btn btn-warning">Submit</button>
 </form>
+</div>
 </template>
 
 <script>
@@ -28,11 +30,29 @@ data(){
 methods:{
   handleSignInUser(){
     this.$store.dispatch("signinUser", {
-      
+      username:this.username,
+      email:this.mail,
+      password:this.password
     })
   }
-}
-}
+ }
+};
 </script>  
-   
+   <style>
+    .wrapper{
+      display:flex;
+      align-items:center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #formContent{
+      
+      -border-radius: 36px 12 px;
+      -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,8)
+    }
+   </style>
+
+
+
+
 </template>
