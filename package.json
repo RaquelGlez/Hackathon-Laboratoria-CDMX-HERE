@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@enrian/vue-pikaday": "^1.0.3",
     "firebase": "^5.5.6",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
