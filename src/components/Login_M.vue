@@ -1,6 +1,11 @@
 <template>
+
+<div class ="mt-4">
+<form>
+
 <div class ="mt-">
 <form class="container">
+
   <div class="form-group">
     <label for="exampleInputEmail1"> Nombre del Usuario </label>
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre" v-model="username">
@@ -45,14 +50,20 @@ methods:{
       flex-direction: column;
       justify-content: center;
     }
-    #formContent{
-      
-      -border-radius: 36px 12 px;
+    .formContent{  
+      -webkit-border-radius: 36px 12 px;
       -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,8)
     }
+    input[type="text"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+input[type="text"]:placeholder {
+  color: #cccccc;
+}
    </style>
 
 
 
 
-</template>
+
