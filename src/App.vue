@@ -18,18 +18,21 @@
       lng= "-99.1576614"
       width= "30%"
       height= "500px" />
+      <ConfirmDriver/>
   </div>
 </template>
 
 <script>
   //import HereMap1 from "./components/HereMap1.vue"
   import HereMap2 from "./components/HereMap2.vue"
+  import ConfirmDriver from "./components/ConfirmDriver.vue"
   
   export default {
     name: "app",
     components: {
       //HereMap1
-      HereMap2
+      HereMap2,
+      ConfirmDriver
     }
   }
 
