@@ -1,6 +1,6 @@
 <template>
 <div class ="mt-">
-<form>
+<form class="container">
   <div class="form-group">
     <label for="exampleInputEmail1"> Nombre del Usuario </label>
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre" v-model="username">
