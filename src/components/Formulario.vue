@@ -1,6 +1,6 @@
 <template>
 
-<div class="card" style="width: 30rem">
+<div class="card" style="width: 40rem">
         <h1> FORMULARIO </h1>
 <form>
 
@@ -73,10 +73,36 @@
   <button type="submit" class="btn btn-danger"> Enviar </button>
 </form>
 </div>
-<!-- <div>
-    
-</div> -->
 
 </template>
 
+ <style>
 
+    template{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;   
+    }
+    
+    .card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 30px;
+    }
+    .form-group{
+      -webkit-border-radius: 36px 12 px;
+     /* -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,8)*/
+    }
+    input[type="text"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+input[type="text"]:placeholder {
+  color: #cccccc;
+}
+   </style>

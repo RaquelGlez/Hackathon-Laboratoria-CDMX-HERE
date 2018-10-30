@@ -45,8 +45,7 @@ methods:{
       flex-direction: column;
       justify-content: center;
     }
-    #formContent{
-      
+    .formContent{  
       -webkit-border-radius: 36px 12 px;
       -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,8)
     }
