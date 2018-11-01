@@ -3,8 +3,8 @@
         <div class="card-body">
             <img src="" alt="..." class="img-thumbnail">
             <p>Carla Hidalgo</p>
-            <p/>6 años</p
-            <p>1er
+            <p>6 años</p>
+            <p>1er</p>
             <div>¿Subio al autobus?</div>
             <div class="custom-control custom-radio custom-control-inline">
                 <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
